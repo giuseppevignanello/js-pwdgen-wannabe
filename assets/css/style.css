@@ -1,0 +1,38 @@
+/* #region general */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --bg_main: #d863a1; 
+    --bg_card: white;
+    --bg_header: #47adf1;
+
+}
+
+/* #endregion general */
+
+/* #region header  */
+#app_header {
+    height: 100px;
+    background-color: var(--bg_header);
+}
+
+/* #endregion header  */
+
+
+/* #region main */
+
+
+#app_main {
+    height: calc(100vh - 100px);
+    background-color: var(--bg_main);
+}
+#password_container {
+    background-color: var(--bg_card);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+/* #endregion main */
