@@ -16,7 +16,7 @@ console.log(lastName);
 
 // 3. Chiedo all'utente il suo colore preferito con un prompt e la salvo in un let color
 
-let color = prompt('Inserisci il tuo colore preferito');
+let color = prompt('Inserisci il tuo colore');
 
 console.log(color);
 
@@ -24,11 +24,13 @@ console.log(color);
 
 // 5. seleziono l'h1 con getElementById e lo salvo in una variabile
 
+let password = document.getElementById( 'password' )
 
+console.log(password);
 
 // 6. assegno all'innerHTML un nuovo valore di "23" interpolando prima le tre variabili firstName lastName e age
 
-
+password.innerHTML= `${firstName}${lastName}${color}23`
 
 
 
