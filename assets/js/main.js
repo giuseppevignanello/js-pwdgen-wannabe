@@ -14,17 +14,20 @@ let lastName = prompt('Inserisci il tuo cognome');
 
 console.log(lastName);
 
-// 3. Chiedo all'utente la sua età  con un prompt e la salvo in un let age
+// 3. Chiedo all'utente il suo colore preferito con un prompt e la salvo in un let color
 
-let age = prompt('Inserisci la tua età');
+let color = prompt('Inserisci il tuo colore preferito');
 
-console.log(age);
+console.log(color);
 
 // 4. creo un h1 nell'html 
 
-// 5. selziono l'h1 con getElementById e lo salvo in una variabile
+// 5. seleziono l'h1 con getElementById e lo salvo in una variabile
+
+
 
 // 6. assegno all'innerHTML un nuovo valore di "23" interpolando prima le tre variabili firstName lastName e age
+
 
 
 
