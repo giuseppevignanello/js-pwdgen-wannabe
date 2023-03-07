@@ -13,7 +13,12 @@ console.log(firstName);
 let lastName = prompt('Inserisci il tuo cognome');
 
 console.log(lastName);
+
 // 3. Chiedo all'utente la sua età  con un prompt e la salvo in un let age
+
+let age = prompt('Inserisci la tua età');
+
+console.log(age);
 
 // 4. creo un h1 nell'html 
 
