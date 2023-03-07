@@ -14,7 +14,7 @@ body {
 
 /* #region header  */
 #app_header {
-    height: 100px;
+    height: 200px;
     background-color: var(--bg_header);
 }
 
@@ -25,7 +25,7 @@ body {
 
 
 #app_main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
     background-color: var(--bg_main);
 }
 #password_container {
